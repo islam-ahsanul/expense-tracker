@@ -1,11 +1,22 @@
 import React from 'react';
+import Header from './components/Header';
+import Balance from './components/Balance';
+import IncomeExpenses from './components/IncomeExpenses';
+import './App.css';
 
 function App() {
   return (
     <>
-      <p>This is line</p>
+      <Header />
+      <div className="container">
+        <Balance />
+        <IncomeExpenses />
+      </div>
     </>
   );
 }
 
 export default App;
+
+// https://www.youtube.com/watch?v=XuFDcZABiDQ
+// 9 min
