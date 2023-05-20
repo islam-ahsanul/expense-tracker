@@ -22,6 +22,4 @@ function App() {
 }
 
 export default App;
-
-// https://www.youtube.com/watch?v=XuFDcZABiDQ
-//  31
+// to be continue with a backend...
